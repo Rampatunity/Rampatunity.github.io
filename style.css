@@ -34,10 +34,10 @@ body{
 .gallery{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
 }
 
 .gallery img{
     width: 100%;
-    max-width:640px ;
+    max-width:400px ;
 }
