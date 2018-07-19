@@ -1,0 +1,33 @@
+body{
+    background-image: url(bg-img-1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #1B1213;
+}
+
+
+.btn-danger{
+    background-color: #AC1D39;
+}
+
+.btn-danger:hover{
+    background-color:#1B1213;
+}
+
+
+.jumbotron-fluid{
+    opacity:0.2 ;
+}
+
+.cont-btn{
+    display: flex;
+    flex:wrap;
+    justify-content: center;
+    border-radius: 2.5%;
+    transition: all 1s;
+}
+
+.cont-btn:hover{
+    transform: scale(1.1)
+}
+
