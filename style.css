@@ -21,7 +21,7 @@ body{
 
 .cont-btn{
     display: flex;
-    flex:wrap;
+    flex-wrap:wrap;
     justify-content: center;
     border-radius: 2.5%;
     transition: all 1s;
@@ -31,3 +31,13 @@ body{
     transform: scale(1.1)
 }
 
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img{
+    width: 100%;
+    max-width:640px ;
+}
