@@ -44,6 +44,7 @@ body{
 
 .gallery img{
     width: 100%;
+    height: auto;
     max-width:400px ;
-    margin: 5%;
+    margin: 2.5%;
 }
