@@ -90,28 +90,36 @@ button:active{
     width: 100%;
 }
 
+.navbar ul {
+    margin-top: 1.5%;
+    margin-bottom: 3%;
+    margin-left: 1.5%;
+    margin-right:0%;
+}
+
 .nav-item{
     color: #1B1213;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2em;
-    display:inline-flex;
+    display:inline-block;
     text-decoration: none;
     list-style-type: none;
-    margin: 5%;
+    margin: 0% 5%;
 
 }
 
 .nav-item:hover{
-    color:#6A1324;
+    color:#F5ACBA;
     text-decoration: none;
     transform: scale(1.1);
 }
 
 .nav-active{
-    color:#6A1324;
+    color:#F5ACBA;
     font-family: 'Montserrat', sans-serif; 
     font-size: 1.2em;
+    display:inline-block;
     text-decoration: none;
     list-style-type: none;
-    margin: 5%;
+    margin: 0% 5%;
 }
