@@ -1,50 +1,84 @@
 body{
-    
-    background-color: #1B1213;
+    font-family: 'Amatic SC', cursive;
+    margin: 0;
 }
 
-.top-section{
-    background-image: url(/assets/main/bg-img-1.jpeg);
+.header{
+    max-width:100% ;
+    margin: 0;
+    background-image: url(assets/Images/bg-img-1.jpeg);
     background-size: cover;
-    background-repeat: no-repeat;
+    padding-bottom: 7.5%;
+}
+
+.hbg{
+    background-color: #ffffff;
+    opacity: 0.2;
+}
+
+h1{
+    color: black;
+    padding: 3em 0em 2em 0.5em;
+    font-size: 4em;
+    margin-top: 0;
 
 }
 
-.btn-danger{
-    background-color: #AC1D39;
-}
-
-.btn-danger:hover{
-    background-color:#1B1213;
-}
-
-
-.jumbotron-fluid{
-    opacity:0.2 ;
-}
-
-.cont-btn{
+.btn{
+    vertical-align: bottom;
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: nowrap;
     justify-content: center;
-    border-radius: 2.5%;
-    transition: all 1s;
+   margin-top: 25%;
 }
 
-.cont-btn:hover{
-    transform: scale(1.1)
+button{
+    border-radius: 4px;
+    background-color: #1B1213;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    border: 0 ;
+    padding: 1.5em 1.5em;
+    letter-spacing: 1.1em;
+    margin: 0;
+    display:block;
+    text-align: center;
+    
+}
+
+button:hover{
+    background-color:#000000;
+}
+
+button:active{
+    box-shadow: 1.5px 1.5px 0.5px #666;
+    transform: translateY(4px);
+}
+
+.nav-btn{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.intro-txt{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+
+.content >.intro-txt{
+    text-align: center;
 }
 
 .gallery{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #fff;
 }
 
-.gallery img{
-    width: 100%;
+.gallery-img{
+    width: 400px;
     height: auto;
-    max-width:400px ;
-    margin: 10px;
+    max-width: 100%;
+    border: 1px solid white;
+    margin: 0.5em;;
 }
