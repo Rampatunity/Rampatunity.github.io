@@ -18,7 +18,7 @@ body{
 
 h1{
     color: black;
-    padding: 3em 0em 2em 0.5em;
+    padding: 1em 0em 0.5em 0.25em;
     font-size: 4em;
     margin-top: 0;
 
@@ -81,4 +81,27 @@ button:active{
     max-width: 100%;
     border: 1px solid white;
     margin: 0.5em;;
+}
+
+.navbar{
+    margin: 0;
+    background-color: #ffffff;
+    opacity: 0.2;
+    width: 100%;
+}
+
+.nav-item{
+    color: #1B1213;
+    font-family: 'Montserrat', sans-serif;
+    display:inline-flex;
+
+}
+
+.nav-item:hover{
+    color:#6A1324;
+}
+
+.nav-active{
+    color:#6A1324;
+    font-family: 'Montserrat', sans-serif; 
 }
